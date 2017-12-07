@@ -1,13 +1,13 @@
 import Firebase from 'firebase'
 
 let config = {
-    apiKey: "AIzaSyB5RE6D57agLEMGeqsZMyZ-NVCtYdAqym0",
-    authDomain: "vueqr-85452.firebaseapp.com",
-    databaseURL: "https://vueqr-85452.firebaseio.com",
-    projectId: "vueqr-85452",
-    storageBucket: "vueqr-85452.appspot.com",
-    messagingSenderId: "526527730693"
-  };
+  apiKey: "AIzaSyCYrt7a_SjPk-mbv7uSeRWPdzhrifhXbiY",
+  authDomain: "errcadmin-92a5d.firebaseapp.com",
+  databaseURL: "https://errcadmin-92a5d.firebaseio.com",
+  projectId: "errcadmin-92a5d",
+  storageBucket: "errcadmin-92a5d.appspot.com",
+  messagingSenderId: "914800929162"
+};
   let firebaseApp = Firebase.initializeApp(config);
   const db = firebaseApp.database()
   const auth = firebaseApp.auth()
